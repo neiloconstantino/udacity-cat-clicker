@@ -1,4 +1,5 @@
-var numberOfClicks = 0;
+var numberOfClicksCat1 = 0;
+var numberOfClicksCat2 = 0;
 
 //VanillaJS
 // var elem = document.getElementById("cat");
@@ -8,7 +9,12 @@ var numberOfClicks = 0;
 // }, false);
 
 //jQuery
-$("#cat").click(function(e){
-    numberOfClicks++;
-    $("#numberOfClicks").html(numberOfClicks);
+$("#cat1").click(function(e){
+    numberOfClicksCat1++;
+    $("#numberOfClicksCat1").html(numberOfClicksCat1);
+})
+
+$("#cat2").click(function(e){
+    numberOfClicksCat2++;
+    $("#numberOfClicksCat2").html(numberOfClicksCat2);
 })
